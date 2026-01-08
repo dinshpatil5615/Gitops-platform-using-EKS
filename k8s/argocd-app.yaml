@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: platform-app
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/dinshpatil5615/Gitops-platform-using-EKS.git
+    targetRevision: main
+    path: k8s
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
