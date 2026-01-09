@@ -47,7 +47,7 @@ This platform automatically:
   - Tags image with Git commit SHA
   - Pushes image to Docker Hub
 
-📸 ![CI](screenshots/Screenshot 2026-01-09 160303)
+📸 ![CI](screenshots/Screenshot 2026-01-09 160303.jpg)
 
 ---
 
@@ -57,7 +57,7 @@ This platform automatically:
 - Ensures desired state matches Git state
 - Auto-heals drifted resources
 
-📸 ![ArgoCD](screenshots/Screenshot 2026-01-09 180457)
+📸 ![ArgoCD](screenshots/Screenshot 2026-01-09 180457.jpg)
 
 ---
 
@@ -67,7 +67,7 @@ This platform automatically:
 - Scales using replicas
 - Managed declaratively via Git
 
-📸 ![Kubernetes](screenshots/Screenshot 2026-01-09 183958)
+📸 ![Kubernetes](screenshots/Screenshot 2026-01-09 183958.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ This platform automatically:
   - Pod health
   - Namespace metrics
 
-📸 ![Grafana](screenshots/Screenshot 2026-01-09 183458)
+📸 ![Grafana](screenshots/Screenshot 2026-01-09 183458.jpg)
 
 ---
 
