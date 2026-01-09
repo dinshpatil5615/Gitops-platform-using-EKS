@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -26,3 +26,4 @@ jobs:
     - name: Push Docker image
       run: |
         docker push ${{ secrets.DOCKER_USERNAME }}/gitops-platform-app:${{ github.sha }}
+        
