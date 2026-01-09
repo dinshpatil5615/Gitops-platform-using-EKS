@@ -3,6 +3,10 @@ kind: Application
 metadata:
   name: platform-app
   namespace: argocd
+  annotations:
+    argocd-image-updater.argoproj.io/image-list: platform-app=docker.io/<dockerhub-username>/platform-app
+    argocd-image-updater.argoproj.io/platform-app.update-strategy: latest
+    argocd-image-updater.argoproj.io/write-back-method: git
 spec:
   project: default
   source:
