@@ -18,7 +18,7 @@ This platform automatically:
 
 ## 🏗️ Architecture Diagram
 
-![Architecture](screenshots/architecture.png)
+![Architecture](screenshots/)
 
 ---
 
@@ -47,7 +47,7 @@ This platform automatically:
   - Tags image with Git commit SHA
   - Pushes image to Docker Hub
 
-📸 ![CI](screenshots/github-actions-ci.png)
+📸 ![CI](screenshots/Screenshot 2026-01-09 160303)
 
 ---
 
@@ -57,7 +57,7 @@ This platform automatically:
 - Ensures desired state matches Git state
 - Auto-heals drifted resources
 
-📸 ![ArgoCD](screenshots/argocd-dashboard.png)
+📸 ![ArgoCD](screenshots/Screenshot 2026-01-09 180457)
 
 ---
 
@@ -67,7 +67,7 @@ This platform automatically:
 - Scales using replicas
 - Managed declaratively via Git
 
-📸 ![Kubernetes](screenshots/k8s-pods.png)
+📸 ![Kubernetes](screenshots/Screenshot 2026-01-09 183958)
 
 ---
 
@@ -79,7 +79,7 @@ This platform automatically:
   - Pod health
   - Namespace metrics
 
-📸 ![Grafana](screenshots/grafana-dashboard.png)
+📸 ![Grafana](screenshots/Screenshot 2026-01-09 183458)
 
 ---
 
