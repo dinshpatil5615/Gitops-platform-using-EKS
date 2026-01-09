@@ -20,7 +20,7 @@ jobs:
     - name: Build Docker image
       run: |
         docker build \
-          -t ${{ secrets.DOCKER_USERNAME }}/platform-app:${{ github.sha }} \
+          -t ${{ secrets.DOCKER_USERNAME }}/gitops-platform-app:${{ github.sha }} \
           apps
 
     - name: Push Docker image
