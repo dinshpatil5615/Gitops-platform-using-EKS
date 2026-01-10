@@ -48,6 +48,7 @@ This platform automatically:
   - Pushes image to Docker Hub
 
 📸 ![CI](screenshots/Github_actions.jpg)
+📸 ![CI](screenshots/Github_actions_2.jpg)
 
 ---
 
