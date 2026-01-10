@@ -57,7 +57,7 @@ This platform automatically:
 - Ensures desired state matches Git state
 - Auto-heals drifted resources
 
-📸 ![ArgoCD](screenshots/Screenshot 2026-01-09 180457.jpg)
+📸 ![ArgoCD](screenshots/Argo_cd.jpg)
 
 ---
 
@@ -67,7 +67,7 @@ This platform automatically:
 - Scales using replicas
 - Managed declaratively via Git
 
-📸 ![Kubernetes](screenshots/Screenshot 2026-01-09 183958.jpg)
+📸 ![Kubernetes](screenshots/K8s_pods_running.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ This platform automatically:
   - Pod health
   - Namespace metrics
 
-📸 ![Grafana](screenshots/Screenshot 2026-01-09 183458.jpg)
+📸 ![Grafana](screenshots/Grafana_monitoring.jpg)
 
 ---
 
