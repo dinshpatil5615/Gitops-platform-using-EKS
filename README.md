@@ -47,7 +47,7 @@ This platform automatically:
   - Tags image with Git commit SHA
   - Pushes image to Docker Hub
 
-📸 ![CI](screenshots/Screenshot 2026-01-09 160303.jpg)
+📸 ![CI](screenshots/Github_actions.jpg)
 
 ---
 
