@@ -18,7 +18,7 @@ This platform automatically:
 
 ## 🏗️ Architecture Diagram
 
-![Architecture](screenshots/)
+![Architecture](screenshots/Architecture.png)
 
 ---
 
