@@ -92,6 +92,5 @@ This platform automatically:
 ├── k8s/                # Kubernetes manifests
 ├── apps/               # Application source & Dockerfile
 ├── .github/workflows/  # GitHub Actions CI
-├── monitoring/         # Helm-based monitoring setup
 ├── screenshots/        # Project screenshots
 └── README.md
